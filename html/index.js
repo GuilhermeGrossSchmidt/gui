@@ -1,4 +1,4 @@
-const http= require('http');
+const http= require('http');no
 const srv = http.createServer((req, res) => {
 
 console.log('METODO: ',req.method);
