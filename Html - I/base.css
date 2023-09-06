@@ -7,19 +7,30 @@ body {
     justify-content: center;
 }
 
-table tr {
-    border: solid 1px grey;
-    background-color: darkgreen;
+.menu table tr {
+    border: solid 1px rgb(2, 2, 2);
+    background-color: rgb(91, 146, 91);
 }
 
-table thead :hover th{
-    background-color: rgb(0, 0, 0);
+.content div table tr:hover{
+
+    background-color: rgb(44, 43, 43);
     color: #f1f1f1;
 }
+.content div table th{
 
-table tr:hover td{
-    background-color: rgb(8, 139, 8);
+    background-color: rgb(7, 7, 7);
+    color: #f1f1f1;
 }
+.content div table tr{
+    background-color: rgb(203, 203, 207);
+
+}
+.menu table tr:hover td{
+    background-color: rgb(201, 235, 201);
+}
+
+
 .wrapper {
     width: 1200px;
     display: flex;
@@ -33,12 +44,12 @@ table tr:hover td{
 }
 .menu {
     width: 15%;
-    background-color: rgb(1, 75, 11);
+    background-color: rgb(136, 187, 143);
     padding: 10px 20px 0px;
     
 }
 .header {
-    background-color: rgb(1, 75, 11);
+    background-color: rgb(136, 187, 143);
     min-height: 150px;
 }
 .content {
@@ -47,6 +58,6 @@ table tr:hover td{
     padding: 20px;
 }
 .footer {
-    background-color: rgb(1, 75, 11);
+    background-color: rgb(130, 187, 143);
     min-height: 150px;
 }
